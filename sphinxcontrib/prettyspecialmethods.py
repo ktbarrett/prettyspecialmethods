@@ -8,6 +8,8 @@ Shows special methods as the python syntax that invokes them
 :license: MIT, see LICENSE for details.
 """
 
+from __future__ import annotations
+
 import sphinx.addnodes as SphinxNodes
 from docutils.nodes import Text, emphasis, inline
 from sphinx.transforms import SphinxTransform

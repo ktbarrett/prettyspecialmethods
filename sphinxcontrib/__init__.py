@@ -9,4 +9,6 @@ distributed in the ``sphinx-contrib`` distribution.
 :license: BSD, see LICENSE for details.
 """
 
+from __future__ import annotations
+
 __import__("pkg_resources").declare_namespace(__name__)

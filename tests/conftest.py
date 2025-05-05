@@ -6,6 +6,8 @@ pytest config for sphinxcontrib/prettyspecialmethods/tests
 :license: BSD, see LICENSE for details.
 """
 
+from __future__ import annotations
+
 import pytest
 from sphinx.testing.path import path
 
