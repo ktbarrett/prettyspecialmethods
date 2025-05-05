@@ -47,7 +47,7 @@ def function_transformer(new_name):
                 "",
                 [
                     SphinxNodes.desc_parameter("", "self"),
-                    *parameters_node.children,
+                    *(parameters_node.children if parameters_node is not None else []),
                 ],
             ),
         )
