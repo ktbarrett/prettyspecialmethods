@@ -1,3 +1,11 @@
+.. image:: https://results.pre-commit.ci/badge/github/ktbarrett/prettyspecialmethods/master.svg
+    :target: https://results.pre-commit.ci/latest/github/ktbarrett/prettyspecialmethods/master
+    :alt: pre-commit.ci status
+
+.. image:: https://github.com/ktbarrett/prettyspecialmethods/actions/workflows/tests.yaml/badge.svg?branch=master
+    :target: https://github.com/ktbarrett/prettyspecialmethods/actions/workflows/tests.yaml
+    :alt: Github Actions status
+
 ==================================
 sphinxcontrib-prettyspecialmethods
 ==================================
