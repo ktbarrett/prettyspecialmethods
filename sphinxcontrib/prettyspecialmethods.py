@@ -8,7 +8,6 @@ Shows special methods as the python syntax that invokes them
 :license: MIT, see LICENSE for details.
 """
 
-import pbr.version
 import sphinx.addnodes as SphinxNodes
 from docutils.nodes import Text, emphasis, inline
 from sphinx.transforms import SphinxTransform
@@ -18,7 +17,7 @@ if False:
     from typing import Any, Dict  # noqa
     from sphinx.application import Sphinx  # noqa
 
-__version__ = pbr.version.VersionInfo("prettyspecialmethods").version_string()
+__version__ = "0.2.dev0"
 
 
 def patch_node(node, text=None, children=None, *, constructor=None):
