@@ -2,14 +2,6 @@
 sphinxcontrib-prettyspecialmethods
 ==================================
 
-|badge-pypi| |badge-travis|
-
-.. |badge-pypi| image:: https://badgen.net/pypi/v/sphinxcontrib-prettyspecialmethods
-    :target: https://pypi.org/project/sphinxcontrib-prettyspecialmethods
-
-.. |badge-travis| image:: https://travis-ci.org/sphinx-contrib/prettyspecialmethods.svg?branch=master
-    :target: https://travis-ci.org/sphinx-contrib/prettyspecialmethods
-
 Shows special methods as the python syntax that invokes them
 
 Overview
@@ -29,6 +21,16 @@ self + other
     Docstring
 
 
+Installing
+----------
+
+Install this fork directly from github:
+
+.. code-block:: sh
+
+    pip install git+https://github.com/ktbarrett/prettyspecialmethods
+
+
 After installing this module, add the following to your `conf.py` to enable it
 
 .. code-block:: python
@@ -37,10 +39,3 @@ After installing this module, add the following to your `conf.py` to enable it
         ...  # your other extensions
         'sphinxcontrib.prettyspecialmethods',
     ]
-
-
-Links
------
-
-- Source: https://github.com/sphinx-contrib/prettyspecialmethods
-- Bugs: https://github.com/sphinx-contrib/prettyspecialmethods/issues
