@@ -1,4 +1,4 @@
-extensions = ['sphinxcontrib.prettyspecialmethods']
+extensions = ["sphinxcontrib.prettyspecialmethods"]
 
 # The suffix of source filenames.
-source_suffix = '.rst'
+source_suffix = ".rst"
