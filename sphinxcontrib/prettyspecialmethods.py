@@ -204,6 +204,11 @@ class PrettifySpecialMethods(SphinxTransform):
             if method_name in SPECIAL_METHODS:
                 parameters_node = ref.next_node(SphinxNodes.desc_parameterlist)
 
+                # Some special methods might not be functions (e.g. `__hash__ = None`).
+                # In this case, skip.
+                if parameters_node is None:
+                    continue
+
                 name_node.replace_self(
                     SPECIAL_METHODS[method_name](name_node, parameters_node)
                 )
